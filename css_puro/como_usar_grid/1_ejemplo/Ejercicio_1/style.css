@@ -1,0 +1,22 @@
+/*Primer forma de crear una grilla*/
+/*.contenedor {*/
+/*    display: grid;*/
+/*    grid-template-columns: 100px 200px 300px; !*se le da tamaño a cada columna en este caso son tres columnas*!*/
+/*    grid-template-rows: 150px 250px; !* Se le da tamaño a cada fila en este caso son dos filas*!*/
+/*    border: 5px solid #e1bee7;*/
+/*    background-color: #fff1ff;*/
+/*}*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 100px 200px 300px; /*se le da tamaño a cada columna en este caso son tres columnas*/
+    grid-auto-rows: 150px; /*le da el mismo tamaño a todas las filas*/
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    grid-auto-flow: column ;/*crea columnas en ves de filas*/
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
