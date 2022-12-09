@@ -9,6 +9,10 @@ import {CreateTodoButton} from "./components/CreateTodoButton";
 import {Modal} from './modal';
 import {TodoForm} from "./components/TodoForm";
 import {TodoHeader} from "./components/TodoHeader";
+import {TodosError} from "./validadores/TodosError";
+import {TodosLoading} from "./validadores/TodosLoading";
+import {EmptyTodos} from "./validadores/EmptyTodos";
+import {changeAlertStorageListener} from "./components/ChangeAlert";
 
 //RENDER PROPS:
 /*
@@ -31,40 +35,61 @@ const App = () => {
         totalTodos,
         input,
         setInput,
-        addTodo
+        addTodo,
+        sincronized
     } = useTodos();
     return (
         <React.Fragment>
-            <TodoHeader>
+            <TodoHeader loading={loading}>
                 <TodoCounter
                     totalTodos={totalTodos}
                     completeTodos={completeTodos}
+                    // loading={loading}
                 />
                 <TodoSearch
                     setInput={setInput}
                     input={input}
+                    // loading={loading}
                 />
             </TodoHeader>
-            <TodoList>
-                {loading && <p>Estamos cargando....</p>}
-                {error && <p>Hubo un error....</p>}
-                {(!loading && !searchTodos.length) && <p> Crea tu primer TODO </p>}
-                {
-                    searchTodos.map(todo => (
-                        <TodoItem
-                            key={todo.text}
-                            text={todo.text}
-                            completed={todo.complete}
-                            onCompleted={() => onComplete(todo.text)}
-                            onDelete={() => onDelete(todo.text)}
-                        />
-                    ))
-                }
+
+            <TodoList
+                error={error}
+                loading={loading}
+                totalTodos={totalTodos}
+                searchTodos={searchTodos}
+                onError={() => <TodosError /> }
+                onLoading={() => <TodosLoading />}
+                onEmptyTodos={() => <EmptyTodos />}
+                setValue={input}
+                onEmptySearchResukts={(searchText) => <p>No ahi ningun resultado {searchText}</p>}
+                render={todo => (
+                    <TodoItem
+                        key={todo.text}
+                        text={todo.text}
+                        completed={todo.completed}
+                        onComplete={() => onComplete(todo.text)}
+                        onDelete={() => onDelete(todo.text)}
+                    />
+                )}
+            >
+                {/*RENDER FUNCION*/}
+                {/*{*/}
+                {/*    (todo) => (*/}
+                {/*        <TodoItem*/}
+                {/*            key={todo.text}*/}
+                {/*            text={todo.text}*/}
+                {/*            completed={todo.completed}*/}
+                {/*            onComplete={() => onComplete(todo.text)}*/}
+                {/*            onDelete={() => onDelete(todo.text)}*/}
+                {/*        />*/}
+                {/*    )*/}
+                {/*}*/}
             </TodoList>
             {
                 !!openModal && (
                     <Modal>
-                        <TodoForm addTodo={addTodo} setOpenModal={setOpenModal()}/>
+                        <TodoForm addTodo={addTodo} setOpenModal={setOpenModal}/>
                     </Modal>
                 )
             }
@@ -72,6 +97,7 @@ const App = () => {
                 openModal={openModal}
                 setOpenModal={setOpenModal}
             />
+            <changeAlertStorageListener sincronized={sincronized} />
         </React.Fragment>
     );
 };

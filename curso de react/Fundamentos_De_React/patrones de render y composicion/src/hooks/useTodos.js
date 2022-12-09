@@ -3,7 +3,7 @@ import {useLocalStorage} from "./useLocalStorage";
 
 
 function useTodos() {
-    const {item,saveItem,loading, error} = useLocalStorage('TODOS_V1', []);
+    const {item,saveItem,loading, error, sincronized} = useLocalStorage('TODOS_V1', []);
     const [input, setInput] = React.useState('');
     const [openModal, setOpenModal] = React.useState(false);
     const completeTodos = item.filter(todo => todo.complete).length;
@@ -50,7 +50,8 @@ function useTodos() {
         setOpenModal,
         addTodo,
         onComplete,
-        onDelete
+        onDelete,
+        sincronized
     }
 }
 export {useTodos}
