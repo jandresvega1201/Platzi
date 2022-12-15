@@ -6,16 +6,71 @@
   <component name="ChangeListManager">
     <list default="true" id="6fcd3f6d-25ae-417f-8aeb-6a6a60ec64d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoSearch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useLocalStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useTodos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoCounter.css" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoCounter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/AppUi.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/CreateTodoButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/TodoCounter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/TodoForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/TodoItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/TodoList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/components/TodoSearch.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/hooks/useLocalStorage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/modal/index..js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/CreateTodoItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/Modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/TodoCounter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/TodoForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/TodoItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/TodoList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/styles/TodoSearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/intro-a-react/src/todoContext/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/ChangeAlert.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/CreateTodoButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoCounter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/TodoSearch.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/components/WithStorageAlert.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useLocalStorage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/hooks/useTodos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/modal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/CreateTodoItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/Modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoCounter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/styles/TodoSearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/validadores/EmptyTodos.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/validadores/TodosError.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos_De_React/patrones de render y composicion/src/validadores/TodosLoading.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +88,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andres-vega/Desktop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Andres-vega/Documents/Platzi/curso de react",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andres-vega\Documents\Platzi\curso de react\Fundamentos_De_React\patrones de render y composicion\src\components" />
@@ -67,7 +123,10 @@
       <workItem from="1670180954727" duration="3000" />
       <workItem from="1670244696429" duration="12774000" />
       <workItem from="1670352071055" duration="17842000" />
-      <workItem from="1670589417776" duration="3424000" />
+      <workItem from="1670589417776" duration="6928000" />
+      <workItem from="1670850945030" duration="14237000" />
+      <workItem from="1670943047852" duration="1909000" />
+      <workItem from="1671126516705" duration="5706000" />
     </task>
     <servers />
   </component>
