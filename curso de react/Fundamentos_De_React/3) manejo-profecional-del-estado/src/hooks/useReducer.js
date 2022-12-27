@@ -53,41 +53,41 @@ const reducerSwitch = (state, action) => {
 }
 
 //Tercera forma de crear un reducer
-// const reducerObject = (state, payload) => ({
-//     'ERROR': {
-//         ...state,
-//         loading: false,
-//         error: true
-//     },
-//     'CONFIRM': {
-//         ...state,
-//         error: false,
-//         loading: false,
-//         confirmed: true
-//     },
-//     'WRITE': {
-//         ...state,
-//         value: payload
-//     },
-//     'CHECK': {
-//         ...state,
-//         loading: true
-//     },
-//     'DELETE': {
-//         ...state,
-//         deleted: true
-//     },
-//     'RESET': {
-//         ...state,
-//         confirmed: false,
-//         deleted: false
-//     }
-// })
-//
-// const reducer = (state, action) => {
-//     if (reducerObject(state, action.payload)[action.type]){
-//         return reducerObject(state)[action.type]
-//     }else {
-//         return state
-//     }
-// }
+const reducerObject = (state, payload) => ({
+    'ERROR': {
+        ...state,
+        loading: false,
+        error: true
+    },
+    'CONFIRM': {
+        ...state,
+        error: false,
+        loading: false,
+        confirmed: true
+    },
+    'WRITE': {
+        ...state,
+        value: payload
+    },
+    'CHECK': {
+        ...state,
+        loading: true
+    },
+    'DELETE': {
+        ...state,
+        deleted: true
+    },
+    'RESET': {
+        ...state,
+        confirmed: false,
+        deleted: false
+    }
+})
+
+const reducer = (state, action) => {
+    if (reducerObject(state, action.payload)[action.type]){
+        return reducerObject(state)[action.type]
+    }else {
+        return state
+    }
+}
