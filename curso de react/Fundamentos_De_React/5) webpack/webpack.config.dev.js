@@ -12,13 +12,16 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const DotEnv = require('dotenv-webpack');
 
+//Este plugin analisa el proyecto
+//const BundleAnalizerPlugin = require('webpack-bundle-analyzer');
+
 //"@babel/preset-env": Para Trabajar con las ultimas versiones de javascript
 //@babel/plugin-transform-runtime: Para trabajar con asincronismo
 
 module.exports = {
     //Le digo que ejecute en modo desarrollo
     mode: "development",
-    watch: true,
+    // devtool: 'source-map',
     //Punto de entrada de nuestra aplicacion
     entry: './src/index.js',
     //Es lo que prepara webpack para enviar a produccion
@@ -101,6 +104,16 @@ module.exports = {
                 }
             ]
         }),
-        new DotEnv()
+        new DotEnv(),
+        // new BundleAnalizerPlugin()
     ],
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname, 'dist')
+        },
+        compress: true,
+        historyApiFallback: true,
+        open: true,
+        port: 3006
+    }
 }
